@@ -1,0 +1,24 @@
+Site de Escola de reforço, com aulas de matérias básicas
+Tem algumas páginas:
+    - Página Inicial
+    - Sobre
+    - Página de Cursos
+    - Contato
+
+Temos que ter um campo na página inicial para a área dos pais onde eles vão poder acessar as notas e frequência dos alunos.
+Temos que ter um campo dos professores também.
+
+Página Inicial
+    /Sobre
+    /Cursos
+    /Contato
+    /pais (onde faremos o login)
+        /board (vai mostrar os cursos do aluno)
+            /nomedamateria (vai substituir pelo nome da matéria)
+        Aqui depois do login, vamos pegar pelo login o id do aluno que vai direcionar para trazer as informações do firebase.
+    /tutor (Onde é feito o login)
+        /board(mostra a lista de alunos)
+            /iddoaluno (Vai mostrar os dados do alunos, e o professor pode adicionar aulas dadas, notas e afins.)
+
+
+créditos da imagem com fundo verde: <a  class="photolink" href='https://br.freepik.com/photos/fundo'>Fundo foto criado por jcomp - br.freepik.com</a>
