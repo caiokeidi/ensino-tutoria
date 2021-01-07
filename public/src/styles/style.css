@@ -187,3 +187,59 @@ form input{
     max-height: 200px;
     min-height: 200px;
 }
+
+@media (max-width: 950px){
+        
+    .titlemaincontent{
+        font-size: 30px;
+    }
+
+    .maincontent{
+        font-size: 20px;
+
+        padding: 90px 20px 30px 20px;
+    }
+
+    .imgmaincontent{
+        height: 170px;
+    }
+
+    .photolink{
+        font-size: 8px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    /* CONTATO */
+
+    .info{
+        width: 95%;
+        text-indent: 0;
+    }
+
+    .tel{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .icon{
+        width: 30px;
+        height: 30px;
+    }
+
+    .tel p{
+        font-size: 20px;
+    }
+
+    .endereco{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    form{
+        width: 90%;
+    }
+}
